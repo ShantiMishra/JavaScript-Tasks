@@ -13,7 +13,6 @@ body{
 .box{
     height: 100px;
     width: 100px;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,5 +24,15 @@ body{
     width: 65px;
     font-size: medium;
     cursor: pointer;
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
 }
 

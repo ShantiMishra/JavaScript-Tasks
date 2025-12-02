@@ -44,7 +44,7 @@ box2.addEventListener("click", ()=> {
 
     box2.style.backgroundColor = nextColour( box2.style.backgroundColor);
 
-    Count2.textContent = "Box2 Clicks "+ box2Count;
+    Count2.textContent = "Box2 Clicks :"+ box2Count;
     totalCount.textContent = "Total Clicks : "+ totalClicks;
 });
 
@@ -55,7 +55,7 @@ box3.addEventListener("click", ()=>{
 
     box3.style.backgroundColor = nextColour( box3.style.backgroundColor);
 
-    Count3.textContent = "Box3 Clicks "+ box3Count;
+    Count3.textContent = "Box3 Clicks :"+ box3Count;
     totalCount.textContent = "Total Clicks : "+ totalClicks;
 })
 
@@ -64,7 +64,7 @@ resetBtn.addEventListener("click", ()=>{
     box2Count=0;
     box3Count=0;
 
-    totalCount=0;
+    totalClicks=0;
 
      Count1.textContent = "Box1 Clicks "+ box1Count;
      Count2.textContent = "Box2 Clicks "+ box2Count;
