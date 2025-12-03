@@ -1,0 +1,17 @@
+.hidden{
+    display: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 238, 238);
+}
+
+.container{
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: black;
+}
