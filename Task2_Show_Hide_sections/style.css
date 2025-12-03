@@ -1,0 +1,54 @@
+.hidden{
+    display: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button { padding: 8px 12px; cursor: pointer; }
+
+.section {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 8px auto;
+  width: 70%;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.container{
+  background-color: rgb(208, 224, 224);
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  
+}
+
+h2{
+  padding: 1.5rem;
+}
+
+#visible-counter{
+  padding: 1rem;
+}
+
+#section-bio{
+  padding: 1rem;
+}
+
+button{
+  background-color: rgb(184, 200, 221);
+  border: 1px solid rgb(184, 200, 221);
+  border-radius: 0.5rem;
+
+}

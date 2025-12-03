@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Sections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h2>
+        Show/Hide Sections
+    </h2>
+
+    <div class="controls">
+        <button id="btn-showBio">Show Bio</button>
+        <button id="btn-showSkills">Show Skills</button>
+        <button id="btn-showHobbies">Show Hobbies</button>
+
+        <button id="btn-hideAll">Hide All</button>
+        <button id="btn-showAll">Show All</button>
+    </div>
+
+    <p id="visible-counter">Section Visible : 0</p>
+     <div id="section-bio" class="Bio hidden">
+        <h3>Bio</h3>
+        <p>I am learning JavaScript .</p>
+     </div>
+     <div id="section-skills" class="Skills hidden">
+        <h3>Skils</h3>
+        <p>1. HTML
+           2. CSS 
+           3. JavaScript
+        </p>
+     </div>
+     <div id="section-hobbies" class="Hobbies hidden">
+        <h3>Hobbies</h3>
+        <p>1. Reading
+           2. Writing
+           3. Dancing
+        </p>
+     </div>
+     
+     </div>
+
+     <script src="app.js"></script>
+
+</body>
+</html>
