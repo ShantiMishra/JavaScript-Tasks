@@ -26,7 +26,7 @@ clearBtn.addEventListener("click" , ()=>{
     charCount.textContent = "Character : 0" ;
 });
 
-copyBtn.addEventListener("click", function () {
+copyBtn.addEventListener("click",  ()=> {
     const textToCopy = upperCase.textContent.replace("Uppercase: ", "");
 
     navigator.clipboard.writeText(textToCopy).then(() => {
