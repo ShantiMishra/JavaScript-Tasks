@@ -72,6 +72,10 @@ resetBtn.addEventListener("click", ()=>{
 
      totalCount.textContent = "Total Clicks : "+ totalClicks;
 
+      box1.style.backgroundColor = "red"
+      box2.style.backgroundColor = "blue"
+      box3.style.backgroundColor = "green"
+
 });
 
 
