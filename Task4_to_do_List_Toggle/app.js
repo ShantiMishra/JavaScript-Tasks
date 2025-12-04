@@ -1,6 +1,6 @@
 const todoItems = document.querySelectorAll(".to-do-items");
 const completedCount = document.getElementById("complete-count");
-const progressBar = document.querySelectorAll("#progress");
+const progressBar = document.getElementById("progress-bar");
 const markAll = document.getElementById("mark-all");
 const unmarkAll = document.getElementById("unmark-all");
 
@@ -14,6 +14,9 @@ function updateCount(){
 
        completedCount.textContent = `Completed : ${count}/5`;
     })
+      
+    let percent = (count/5)*100;
+    progressBar.style.width = percent + "%";
 }
 
 
