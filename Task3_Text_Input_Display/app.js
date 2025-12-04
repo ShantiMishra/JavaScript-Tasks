@@ -15,19 +15,19 @@ input.addEventListener("input" , ()=> {
     exact.textContent = "Exact : "+ text ;
     upperCase.textContent = "Uppercase : " + text.toUpperCase();
     lowerCase.textContent = "Lowercase : " + text.toLowerCase();
-    charCount.textContent = "Characters : "  + text.length();
+    charCount.textContent = "Characters : "  + text.length;
 });
 
 clearBtn.addEventListener("click" , ()=>{
     input.value = "";
-     exact.textContent = "Exact"+ text ;
+     exact.textContent = "Exact : "
     upperCase.textContent = "Uppercase : ";
     lowerCase.textContent = "Lowercase : " ;
     charCount.textContent = "Character : 0" ;
 });
 
 copyBtn.addEventListener("click",  ()=> {
-    const textToCopy = upperCase.textContent.replace("Uppercase: ", "");
+    const textToCopy = upperCase.textContent.replace("Uppercase : ", "");
 
     navigator.clipboard.writeText(textToCopy).then(() => {
         copyMsg.classList.remove("hidden");
