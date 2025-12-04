@@ -17,6 +17,17 @@ function updateCount(){
       
     let percent = (count/5)*100;
     progressBar.style.width = percent + "%";
+
+    if(percent<=30){
+        progressBar.style.backgroundColor = "red";
+    }
+    else if(percent<=60){
+        progressBar.style.backgroundColor = "orange";
+    }
+    else{
+        progressBar.style.backgroundColor = "green";
+    }
+    
 }
 
 
