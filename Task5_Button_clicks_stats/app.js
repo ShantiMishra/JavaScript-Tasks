@@ -1,5 +1,5 @@
 const redBtn = document.getElementById("btn-red");
-const blueBlue = document.getElementById("btn-blue");
+const blueBtn = document.getElementById("btn-blue");
 const greenBtn = document.getElementById("btn-green");
 const yellowBtn = document.getElementById("btn-yellow");
 
@@ -43,9 +43,30 @@ yellowBtn.addEventListener("click", ()=>{
 function updateLeader(){
     const max = Math.max(red,blue,green,yellow)
     console.log(max)
-    
+   if(max==0){
+    leader.textContent = "No Clicks Yet"
+   }
+
+    let leaders=[];
+    if(red==max) leaders.push('Red');
+    if(blue==max) leaders.push('Blue');
+    if(green==max) leaders.push('Green');
+    if(yellow==0) leaders.push('Yellow');
+
+    leader.textContent = `Leader is ${leaders[0]} : ${max}`;
 }
 
-updateLeader();
+resetBtn.addEventListener("click", () => {
+ 
+    countBlue.textContent = 0;
+    countRed.textContent = 0;
+    countGreen.textContent = 0;
+    countYellow.textContent = 0;
+
+    leader.textContent = "Leader : No Clicks Yet"
+
+})
+
+
 
 
