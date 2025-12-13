@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+
+    <h2>Font Size Controller</h2>
+
+    <!-- Sample Text -->
+    <p id="sampleText">
+      This is sample text. Change my font size!
+    </p>
+
+  
+    <p id="sizeDisplay">Current size: 16px</p>
+
+   
+    <div class="buttons">
+      <button id="smallerBtn">Smaller</button>
+      <button id="largerBtn">Larger</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div class="presets">
+      <button data-size="12">Small</button>
+      <button data-size="16">Medium</button>
+      <button data-size="24">Large</button>
+    </div>
+
+  
+    <input type="range" id="slider" min="10" max="40" value="16">
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

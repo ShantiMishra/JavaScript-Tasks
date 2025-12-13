@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#sampleText {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.buttons button,
+.presets button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
