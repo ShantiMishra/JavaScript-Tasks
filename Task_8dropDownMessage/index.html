@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Message Selector</h2>
+            <label for="typeselect">Choose the message type :</label>
+            <select id="typeSelect">
+                <option value="">-- Select --</option>
+                <option value="success">Success</option>
+                <option value="warning">Warning</option>
+                <option value="error">Error</option>
+                <option value="info">Info</option>
+
+            </select>
+        
+    
+        <div id="messageBox" class="hidden"></div>
+
+         <p id="counter">Messages shown: 0</p>
+
+         <button id="clearBtn">Clear</button>
+       </div>   
+ 
+    <script src="app.js"></script>
+</body>
+</html>

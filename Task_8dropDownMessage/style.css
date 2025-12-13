@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: #f6f8fb;
+}
+
+.box {
+    width: 380px;
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+label,
+select,
+button,
+p {
+    display: block;
+    margin-top: 10px;
+}
+
+select {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background: #2d8cf0;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Message styles */
+.message {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+/* type colors */
+.success {
+    background: #28a745;
+}
+
+/* green */
+.warning {
+    background: #ff8c00;
+}
+
+/* orange */
+.error {
+    background: #d9534f;
+}
+
+/* red */
+.info {
+    background: #2d8cf0;
+}
+
+/* blue */
